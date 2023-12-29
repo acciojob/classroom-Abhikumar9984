@@ -24,7 +24,7 @@ public class StudentRepository {
 
 
     }
-
+    //Use
     public  void addTeacherToTheDb(Teacher teacher){
 
         TeacherDb.put(teacher.getName() , teacher);

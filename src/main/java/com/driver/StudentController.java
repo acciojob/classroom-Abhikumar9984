@@ -31,7 +31,7 @@ public class StudentController {
         repoObj.addStudentToTheDb(student);
         return new ResponseEntity<>("New student added successfully", HttpStatus.CREATED);
     }
-
+    //Use
     @PostMapping("/add-teacher")
     public ResponseEntity<String> addTeacher(@RequestBody Teacher teacher){
         repoObj.addTeacherToTheDb(teacher);
