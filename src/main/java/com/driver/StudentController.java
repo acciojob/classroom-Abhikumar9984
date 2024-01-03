@@ -50,7 +50,7 @@ public class StudentController {
         student  = serviceObj.getStudent(name);
         return new ResponseEntity<>(student, HttpStatus.CREATED);
     }
-
+        //use
     @GetMapping("/get-teacher-by-name/{name}")
     public ResponseEntity<Teacher> getTeacherByName(@PathVariable String name){
         Teacher teacher = null; // Assign student by calling service layer method
